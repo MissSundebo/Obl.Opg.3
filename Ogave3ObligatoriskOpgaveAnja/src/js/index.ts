@@ -18,11 +18,11 @@ if(CaseOptionValue == "UpperCase")
     let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content");
             element.innerHTML = Result;
 }
-else if(CaseOptionValue == "LowerCase"){
+else if(CaseOptionValue == "LowerCase")
+{
     Result= inputFieldString.toLowerCase();
 
     let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content")
         element.innerHTML = Result;
 }
-
 }
